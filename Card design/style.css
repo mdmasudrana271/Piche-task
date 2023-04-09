@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 150px;
+    
+
+}
+
+#container .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+#container .card img{
+    width: 300px;
+}
+.card h2 p{
+    font-weight: 700;
+}
